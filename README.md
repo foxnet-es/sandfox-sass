@@ -24,6 +24,8 @@ Check out [sandfox.com](http://sass.sandfox.com/docs) for guides and documentati
 
 ## Folder Structure
 
+```text
+
 src/ 
 | 
 |– base/ 
@@ -57,6 +59,8 @@ src/
 |   `– _grid.scss
 | 
 `– main.scss
+
+```
 
 ## License
 
