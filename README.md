@@ -34,7 +34,7 @@ src/
 | 
 |– components/
 |   |
-|   `– _base.scss
+|   `– _components.scss
 |
 |– helpers/
 |   |
