@@ -54,7 +54,7 @@ src/
 |       |
 |       `– _placeholders.scss
 | 
-|– layaut/
+|– layout/
 |   |
 |   `– _grid.scss
 | 
