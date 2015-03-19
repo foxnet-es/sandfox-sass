@@ -48,7 +48,5 @@ module.exports = function( grunt ) {
 
     grunt.registerTask( 'master',   [ 'sass:master' ] );
 
-    grunt.registerTask( 'test',     [ 'karma:unit' ] );
-
     grunt.registerTask( 'default',  [ 'dev' ] );
 };
