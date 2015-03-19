@@ -77,6 +77,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Credits
 
 * [Rubén López Gómez](https://twitter.com/Rubeniskov)
+* [Alberto Galán Álvarez](https://twitter.com/magicmoli1)
 
 [site-url]: http://sass.sandfox.com
 
@@ -88,3 +89,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 [license-image]: http://img.shields.io/npm/l/sassdoc.svg?style=flat-square
 [license-url]: LICENSE.md
+
+
