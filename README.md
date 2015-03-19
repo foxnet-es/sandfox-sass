@@ -83,8 +83,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [npm-url]: https://www.npmjs.com/package/sandfox-sass
 [npm-image]: https://nodei.co/npm/sandfox-sass.png?downloads=true
 
-[travis-url]: https://travis-ci.org/foxnet-es/sandfox-sass?branch=master
-[travis-image]: https://travis-ci.org/foxnet-es/sandfox-sass.svg?style=flat-square
+[travis-url]: https://travis-ci.org/foxnet-git/sandfox-sass?branch=master
+[travis-image]: https://travis-ci.org/foxnet-git/sandfox-sass.svg?style=flat-square
 
 [license-image]: http://img.shields.io/npm/l/sassdoc.svg?style=flat-square
 [license-url]: LICENSE.md
