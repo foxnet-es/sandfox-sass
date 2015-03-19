@@ -12,7 +12,16 @@
         "type": "git",
         "url": "https://foxnet-git@github.com/foxnet-git/sandfox-sass.git"
     },
-    "author": "Rubén López Gómez",
+    "author": {
+        "name": "Rubén López Gómez",
+        "email": "loslopez1@icloud.com",
+        "url": "https://twitter.com/Rubeniskov"
+    },
+    "contributors": [{
+        "name": "Alberto Galán Álvarez",
+        "email": "albertogalanalvarez@gmail.com",
+        "url": "https://twitter.com/magicmoli1"
+    }]
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/foxnet-git/sandfox-sass/issues"
