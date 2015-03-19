@@ -15,7 +15,12 @@ module.exports = function( grunt ) {
                 {
                     style: 'expanded',
 
-                    sourceMap: true
+                    sourceMap: true,
+
+                    includePaths:
+                    [
+                        './node_modules/bootcamp/dist'
+                    ]
                 },
 
                 dev:
@@ -23,6 +28,14 @@ module.exports = function( grunt ) {
                     files:
                     {
                         './dist/sandfox.css'     : './src/main.scss'
+                    }
+                },
+
+                unit:
+                {
+                    files:
+                    {
+                        './dist/sandfox.unit.css'     : './test/unit/unit.scss'
                     }
                 }
             },
@@ -43,6 +56,8 @@ module.exports = function( grunt ) {
     grunt.loadNpmTasks( 'grunt-sass' );
 
     grunt.loadNpmTasks( 'grunt-contrib-watch' );
+
+    grunt.registerTask( 'test',     [ 'sass:unit' ] );
 
     grunt.registerTask( 'dev',      [ 'sass:dev' ] );
 
