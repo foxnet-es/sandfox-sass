@@ -1,6 +1,6 @@
 {
     "name": "sandfox-sass",
-    "version": "1.7.2",
+    "version": "1.8.2",
     "description": "",
     "main": "Gruntfile.js",
     "scripts": {
