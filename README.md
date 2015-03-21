@@ -13,19 +13,25 @@ SandFox SASS is sass library.
 
 **Note**: SandFox SASS requires a minimum Node.js version of `v0.12.0`.
 
-## Installation
+## Install
 
-To use sandfox SASS you must install [Node.js](https://nodejs.org/download/) and [Grunt](http://gruntjs.com).
+To use sandfox SASS you must install [Node.js](https://nodejs.org/download/) and [grunt-cli](http://gruntjs.com).
 
-Type in your command line console the install command:
+After Node.js installation, you must type in command line the next instruction
 
-	npm install -g grunt grunt-cli
+```
+$ cd path/node/project
+$ npm install --save-dev grunt-sass
+$ npm install -g grunt grunt-cli
+```
 
-## How to use it
+## Usage
 
-Type in your command line console the compile command:
+Now you can type in your command line terminal the syntax to compile the library
 
-	grunt dev
+```
+$ grunt 
+```
 
 Check if dist/sandfox.css and dis/sandfox.css.map are created and have fun!
 
