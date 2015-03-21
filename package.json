@@ -1,18 +1,27 @@
 {
     "name": "sandfox-sass",
-    "version": "1.7.2",
+    "version": "1.8.2",
     "description": "",
     "main": "Gruntfile.js",
     "scripts": {
         "watch": "grunt watch",
         "compile": "grunt sass",
-        "test": "grunt sass:dev"
+        "test": "grunt test"
     },
     "repository": {
         "type": "git",
         "url": "https://foxnet-git@github.com/foxnet-git/sandfox-sass.git"
     },
-    "author": "Rubén López Gómez",
+    "author": {
+        "name": "Rubén López Gómez",
+        "email": "loslopez1@icloud.com",
+        "url": "https://twitter.com/Rubeniskov"
+    },
+    "contributors": [{
+        "name": "Alberto Galán Álvarez",
+        "email": "albertogalanalvarez@gmail.com",
+        "url": "https://twitter.com/magicmoli1"
+    }],
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/foxnet-git/sandfox-sass/issues"
@@ -21,6 +30,7 @@
     "devDependencies": {
         "grunt": "^0.4.5",
         "grunt-contrib-watch": "^0.6.1",
-        "grunt-sass": "^0.18.1"
+        "grunt-sass": "git+https://github.com/foxnet-git/grunt-sass.git",
+        "bootcamp": "^1.1.7"
     }
 }
