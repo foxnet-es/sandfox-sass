@@ -95,6 +95,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 * [Rubén López Gómez](https://twitter.com/Rubeniskov)
 * [Alberto Galán Álvarez](https://twitter.com/magicmoli1)
 
+## Third-party
+
++ [mathsass](https://github.com/terkel/mathsass)
+
 [site-url]: http://sass.sandfox.com
 
 [npm-url]: https://www.npmjs.com/package/sandfox-sass
