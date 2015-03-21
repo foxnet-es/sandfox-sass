@@ -1,0 +1,53 @@
+// Constants
+@import "constants";
+
+// Exponentiation
+@import "pow";
+
+// Factorial
+@import "fact";
+
+// Square root
+@import "sqrt";
+
+// Exponential function
+@import "exp";
+@import "frexp";
+@import "ldexp";
+
+// Logarithms
+@import "log";
+
+// Polynomial Approximation function
+
+@import "maclaurin";
+
+// Trigonometric functions
+@import "sin";
+@import "cos";
+@import "tan";
+@import "csc";
+@import "sec";
+@import "cot";
+
+// Inverse trigonometric functions
+@import "asin";
+@import "acos";
+@import "atan";
+@import "atan2";
+
+//////////////////////////////
+// Random Number
+//   Working from http://xkcd.com/221/
+//    Chosen by fair dice roll.
+//    Guarenteed to be random.
+//////////////////////////////
+//@function rand( $min: null, $max: null ) {
+//
+//   @if $min == null and $max == null
+ //   {
+//        @return Math.floor(Math.random() * 6) + 1;
+ //   } 
+//  
+//  @return random(1000000000)/1000000000;
+//}

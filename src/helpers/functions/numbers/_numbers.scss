@@ -1,0 +1,42 @@
+// Units
+//@import "strip-unit";
+//@import "unitless-rad";
+
+// Casting
+//@import "deg-to-rad";
+//@import "rad-to-deg";
+
+
+// Convert to unitless rad
+@function unitless-rad ($angle) {
+    @if unitless($angle) {
+        @return $angle;
+    } @else if unit($angle) == rad {
+        @return $angle / 1rad;
+    } @else if unit($angle) == deg {
+        @return deg-to-rad($angle, false);
+    } @else if type-of($angle) != number or not unitless($angle) {
+        @warn "#{ $angle } is not a valid number.";
+        @return $angle;
+    }
+}
+
+// Strip unit from a number
+@function strip-unit ($number) {
+    @if unitless($number) {
+        @return $number;
+    } @else {
+        @return $number / ($number * 0 + 1);
+    }
+}
+
+
+// Convert rad to deg
+@function rad-to-deg ($rad, $unit: true) {
+    @return strip-unit($rad) * 180 / $PI * if($unit, 1deg, 1);
+}
+
+// Convert deg to rad
+@function deg-to-rad ($deg, $unit: true) {
+    @return strip-unit($deg) * $PI / 180 * if($unit, 1rad, 1);
+}
