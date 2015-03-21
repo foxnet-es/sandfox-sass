@@ -44,7 +44,13 @@ module.exports = function( grunt ) {
             {
                 css     :
                 {
-                    files       : [ './package.json', './src/*.scss', './src/**/*.scss' ],
+                    files       : [ './src/*.scss', './src/**/*.scss' ],
+
+                    tasks       : [ 'sass' ]
+                },
+                unit    :
+                {
+                    files       : [ './test/unit/units/*.scss' ],
 
                     tasks       : [ 'sass' ]
                 }
@@ -57,7 +63,7 @@ module.exports = function( grunt ) {
 
     grunt.loadNpmTasks( 'grunt-contrib-watch' );
 
-    grunt.registerTask( 'test',     [ 'sass:unit' ] );
+    grunt.registerTask( 'test',     [ 'sass:dev', 'sass:unit' ] );
 
     grunt.registerTask( 'dev',      [ 'sass:dev' ] );
 
